@@ -25,3 +25,6 @@
 [submodule "bundle/cvim"]
 	path = bundle/cvim
 	url = git@github.com:hophacker/cvim.git
+[submodule "bundle/AutoComplPop"]
+	path = bundle/AutoComplPop
+	url = git@github.com:vim-scripts/AutoComplPop.git

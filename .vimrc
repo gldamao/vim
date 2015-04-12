@@ -127,8 +127,8 @@ set tm=500
 " Enable syntax highlighting
 syntax enable 
 
-"colorscheme desert
-"set background=dark
+colorscheme desert
+set background=dark
 
 " Set extra options when running in GUI mode
 if has("gui_running")
@@ -442,8 +442,8 @@ nmap <F10> :call UpdateCtags()<CR>
 
 let NERDShutUp=1
 
-set background=dark
-colorscheme solarized
+"set background=dark
+"colorscheme solarized
 
 "禁止光标闪烁
 set gcr=a:block0blinkon0
@@ -457,7 +457,6 @@ set guioptions-=m
 set guioptions-=T
 "高亮显示当前行/列
 set cursorline
-set cursorcolumn
 
 "F2显示行号
 nnoremap <F2> :set nonumber!<CR>

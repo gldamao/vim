@@ -504,3 +504,6 @@ let g:ctrlp_custom_ignore = {
     \'dir': '\v[\/]\.(git)$',
     \'file':'\v\.(log|jpg|png|jpeg)$',
     \}
+
+"A 设置
+nnoremap <silent> <F12> :A<CR>
